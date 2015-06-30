@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/dev/Documents/spark-1.4.0/assembly'
+let g:netrw_dirhist_2='/home/dev/Documents/Flare2/conf'
+let g:netrw_dirhist_3='/home/dev/Documents/Flare/conf'
+let g:netrw_dirhist_4='/home/dev/Documents/Spark/conf'
+let g:netrw_dirhist_5='/home/dev/.vim'
+let g:netrw_dirhist_6='/home/dev/Documents/DDAppTemplate'
+let g:netrw_dirhist_7='/home/dev/Documents/DDAppTemplate/src'
+let g:netrw_dirhist_8='/home/dev/Documents/DDAppTemplate/src/main'
+let g:netrw_dirhist_9='/home/dev/Documents/DDAppTemplate/src/main/scala'
