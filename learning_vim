@@ -1,0 +1,17 @@
+Themes
+
+Modules
+	| Pathogen
+		| https://github.com/tpope/vim-pathogen
+		| This is for installing bundles
+
+	| vim-airline 
+		| https://github.com/bling/vim-airline
+		| This is for buffer management
+	| CtrlP
+		| https://github.com/kien/ctrlp.vim
+		| Finding those pesky files
+	| Syntastic
+		| https://github.com/scrooloose/syntastic
+		| Checking that syntax
+
