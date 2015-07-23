@@ -74,6 +74,25 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+"Toggle syntastic check"
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
+nnoremap <C-w>E :SyntasticCheck<CR> :SyntasticToggleMode<CR>
 
-"Pastetoggle
-:set pastetoggle=<f5>
+"Pastetoggle"
+set pastetoggle=<f5>
+
+"Used to get rid of the excess time it takes to 'escape'"
+set timeoutlen=1000 ttimeoutlen=0
+
+"Saving and restoring views"
+"autocmd BufWinLeave *.* mkview
+"autocmd BufWinEnter *.* silent loadview 
+
+"autocomplete"
+set completeopt=longest,menuone
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+inoremap <expr> <C-n> pumvisible() ? '<C-n>' :
+  \ '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
+
+inoremap <expr> <M-,> pumvisible() ? '<C-n>' :
+  \ '<C-x><C-o><C-n><C-p><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'

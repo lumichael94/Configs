@@ -30,4 +30,19 @@ cluster0="lumichael94@52.4.42.242"; export cluster0
 cluster1="lumichael94@54.152.94.194"; export cluster1
 cluster2="lumichael94@52.5.125.116"; export cluster2
 
-PS1="%n@%~%% "
+PS1="%n%~%% "
+export GOPATH=$HOME/Documents/go_projects
+path+=('/usr/local/go/bin')
+path+=('/sbin')
+path+=($GOPATH/bin)
+export PATH
+export GOWKSP=$HOME/Documents/go_projects/src/github.com/lumichael94
+export FLARECONF=$HOME/Documents/flare/flareConfig.json
+export EDITOR="/usr/bin/vim"
+
+cluster0="lumichael94@52.2.228.253"; export cluster0
+cluster1="lumichael94@52.6.2.226"; export cluster1
+cluster2="lumichael94@52.6.83.131"; export cluster2
+cluster3="lumichael94@52.6.182.190"; export cluster3
+cluster4="lumichael94@52.6.47.100"; export cluster4
+cluster5="lumichael94@52.6.179.250"; export cluster5

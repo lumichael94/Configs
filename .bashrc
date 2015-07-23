@@ -115,6 +115,9 @@ fi
 
 cluster0="lumichael94@52.4.42.242"; export cluster0
 cluster1="lumichael94@54.152.94.194"; export cluster1
-cluster2="lumichael94@52.8.77.211"; export cluster2
+cluster2="lumichael94@52.2.52.1"; export cluster2
+cluster3="lumichael94@52.6.28.56"; export cluster3
+cluster4="lumichael94@52.6.3.223"; export cluster4
+cluster5="lumichael94@52.2.228.253"; export cluster5
 
 export TERM=xterm-256color
