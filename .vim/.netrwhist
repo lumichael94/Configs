@@ -1,8 +1,8 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/dev/.i3'
-let g:netrw_dirhist_2='/home/dev/Documents'
-let g:netrw_dirhist_3='/home/dev'
-let g:netrw_dirhist_4='/home/dev/.vim'
-let g:netrw_dirhist_5='/home/dev'
-let g:netrw_dirhist_6='/home/dev/Documents/apache-cassandra-2.1.7/conf'
+let g:netrw_dirhist_1='/home/dev/Documents/DemoDDApp/src/main'
+let g:netrw_dirhist_2='/home/dev/Documents/DemoDDApp/src'
+let g:netrw_dirhist_3='/home/dev/Documents/DemoDDApp'
+let g:netrw_dirhist_4='/home/dev/Documents/practice/example_lisp'
+let g:netrw_dirhist_5='/home/ptolemy/eliza'
+let g:netrw_dirhist_6='/home/ptolemy'
