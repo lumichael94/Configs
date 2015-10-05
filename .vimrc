@@ -132,7 +132,6 @@ let NERDTreeShowLineNumbers=1
 
 "insert new line without entering insert mode"
 nmap <S-Enter> O<Esc>j
-nmap <CR>o<Esc>
 
 
 
