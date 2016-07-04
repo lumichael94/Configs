@@ -21,4 +21,14 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+# set -o vi
+
 export PATH="$HOME/.cargo/bin:$PATH"
+export RUST_SRC_PATH="/usr/local/src/rustc-nightly/src"
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go_code
+export EDITOR=vim
+
+
+# PS1='${debian_chroot:+($debian_chroot)}\[\033[0;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+# PS1="\h:\W \u\$(__git_ps1 \" (%s) \")\$ "

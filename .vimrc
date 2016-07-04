@@ -44,36 +44,6 @@ nmap <leader>bq :bp <BAR> bd #<CR>
 " Show all open buffers and their status
 nmap <leader>bl :ls<CR>
 
-"I commented this out because of some bugs
-
-""to mimick NERDTree's style
-"let g:netrw_liststyle=3
-""to enable line numbers in netrw (Explorer)
-"let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
-""nmap <leader>e :Vexplore 25<cr>
-"
-"function! ToggleVExplorer()
-"	if exists("t:expl_buf_num")
-"		let expl_win_num = bufwinnr(t:expl_buf_num)
-"		if expl_win_num != -1
-"			exec expl_win_num . 'wincmd w'
-"			close
-"			unlet t:expl_buf_num
-"		else
-"			unlet t:expl_buf_num
-"		endif
-"	else
-"		exec '1wincmd w'
-"		Vexplore 25
-"		let t:expl_buf_num = bufnr("%")
-"	endif
-"endfunction
-"
-"nmap <leader>e :call ToggleVExplorer()<CR>
-"let g:netrw_browse_split = 4
-"let g:netrw_altv = 1
-"set autochdir
-"
 "Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -133,6 +103,7 @@ let NERDTreeShowLineNumbers=1
 "insert new line without entering insert mode"
 nmap <S-Enter> O<Esc>j
 
-
-
+"VIM Rust Racer
+let g:racer_cmd = "/home/developer/.cargo/bin/racer"
+let $RUST_SRC_PATH="/usr/local/src/rustc-nightly/src"
 
